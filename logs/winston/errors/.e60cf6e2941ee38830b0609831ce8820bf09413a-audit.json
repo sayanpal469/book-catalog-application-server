@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 4\\Book Catalog Application\\Backend\\logs\\winston\\errors\\.e60cf6e2941ee38830b0609831ce8820bf09413a-audit.json",
+    "files": [
+        {
+            "date": 1689574755778,
+            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 4\\Book Catalog Application\\Backend\\logs\\winston\\errors\\phu-2023-17-07-11-error.log",
+            "hash": "dc9aefbf5f503761afec4b81ca20898fd70cb54a5fd82ac416964164b3304379"
+        }
+    ],
+    "hashType": "sha256"
+}
