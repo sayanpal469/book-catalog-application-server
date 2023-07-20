@@ -10,8 +10,6 @@ export type IGenericErrorResponse = {
 };
 
 type IMeta = {
-  page: number;
-  limit: number;
   total: number;
 };
 

@@ -8,11 +8,11 @@ const router = express.Router();
 router.post(
   '/auth/signup',
   validateRequest(UserValidation.userZodSchema),
-  UserController.createUser
+  UserController.createUser,
 );
 
-// router.get('/users', UserController.getUser);
-// router.get('/users/:id', UserController.getSingelUser);
+router.get('/auth/login', UserController.loginUser);
+router.patch('/auth/forgotPass/:email', UserController.forgotPassword);
 // router.patch('/users/:id', UserController.updateUser);
 // router.delete('/users/:id', UserController.deleteUser);
 

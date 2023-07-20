@@ -12,6 +12,40 @@ const createUser = async (payload: IUser): Promise<IUser | null> => {
   return user;
 };
 
+const loginUser = async (payload: IUser): Promise<IUser | undefined> => {
+  const user = await User.findOne({ email: payload.email });
+
+  if (!user) {
+    throw new ApiError(http.NOT_FOUND, 'This email does not exists');
+  } else {
+    if (user.password == payload.password) {
+      return user;
+    } else {
+      throw new ApiError(http.UNAUTHORIZED, 'Wrong password');
+    }
+  }
+};
+
+const forgotPassword = async (email: string, password: string): Promise<IUser | undefined> => {
+  const user = await User.findOne({ email: email });
+
+  if (!user) {
+    throw new ApiError(http.NOT_FOUND, 'This email does not exists');
+  } else {
+    await User.findOneAndUpdate(
+      {
+        email: email,
+      },
+      {
+        password: password,
+      },
+    );
+  }
+  return user
+};
+
 export const UserService = {
   createUser,
+  loginUser,
+  forgotPassword,
 };

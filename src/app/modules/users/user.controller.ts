@@ -16,6 +16,30 @@ const createUser = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const loginUser = catchAsync(async (req: Request, res: Response) => {
+  const result = await UserService.loginUser(req.body);
+
+  sendResponse<IUser>(res, {
+    statusCode: http.OK,
+    success: true,
+    message: 'Login successfully',
+    data: result,
+  });
+});
+
+const forgotPassword = catchAsync(async (req: Request, res: Response) => {
+  const result = await UserService.forgotPassword(req.params.email, req.body.password);
+
+  sendResponse<IUser>(res, {
+    statusCode: http.OK,
+    success: true,
+    message: 'Your password is being updated',
+    data: result,
+  });
+});
+
 export const UserController = {
   createUser,
+  loginUser,
+  forgotPassword,
 };
