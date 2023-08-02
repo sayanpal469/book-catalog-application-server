@@ -10,7 +10,6 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
 app.use('/uploads', express.static('upload'));
 
 app.use('/api/v1', routes);
@@ -19,7 +18,7 @@ app.use(globalErrorHandler);
 
 // Wrong API error handler
 app.use((req: Request, res: Response, next: NextFunction) => {
-  console.log(req)
+  console.log(req);
   res.status(http.NOT_FOUND).json({
     success: false,
     message: 'Not Found',

@@ -33,7 +33,6 @@ const getAllBook = async (
     });
   }
 
-
   if (genre) {
     andConditions.push({ genre: { $in: [genre] } });
   }

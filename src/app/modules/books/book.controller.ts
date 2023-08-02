@@ -17,7 +17,7 @@ const createBook = catchAsync(async (req: Request, res: Response) => {
     }
   }
 
-  console.log(req.file)
+  console.log(req.file);
 
   const result = await BookService.createBook({
     title: req.body.title,
@@ -29,7 +29,7 @@ const createBook = catchAsync(async (req: Request, res: Response) => {
     reviews: req.body.reviews,
   });
 
-  console.log(req.body)
+  console.log(req.body);
   // console.log(result);
 
   sendResponse<IBook>(res, {

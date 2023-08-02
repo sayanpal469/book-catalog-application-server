@@ -1,105 +1,105 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\.02ce7204903401e333fb4cf44c6ead79005e50ad-audit.json",
+  "files": [
+    {
+      "date": 1690090422016,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-11-success.log",
+      "hash": "c40e1db92a450e3199592e4acb6aab0e9a56b7d119bd70ef59fde512cc7051f7"
     },
-    "auditLog": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\.02ce7204903401e333fb4cf44c6ead79005e50ad-audit.json",
-    "files": [
-        {
-            "date": 1690090422016,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-11-success.log",
-            "hash": "c40e1db92a450e3199592e4acb6aab0e9a56b7d119bd70ef59fde512cc7051f7"
-        },
-        {
-            "date": 1690095115195,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-12-success.log",
-            "hash": "7d24d0dd9fa7534b99861c707912ca8cd61290d3061b0e57f7876c94514c9e15"
-        },
-        {
-            "date": 1690113945612,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-17-success.log",
-            "hash": "52476c85898afe87b892787921fb082a7e8ae6481003fa5547987dbe33b62b8e"
-        },
-        {
-            "date": 1690171017172,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-09-success.log",
-            "hash": "6dfe0735eaaea4bab3dc4adf5950524ac487c0949a375141cb001ac83db325ad"
-        },
-        {
-            "date": 1690175104959,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-10-success.log",
-            "hash": "d04d7019ad2188919afec825542c3e951998689f97a31b9d04b828d7f0ec8dd7"
-        },
-        {
-            "date": 1690176699347,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-11-success.log",
-            "hash": "e0d2ef39f5f29ec312ff5aaf964a6dbb03fa4b14fa1f69422b00282e23dff330"
-        },
-        {
-            "date": 1690266141880,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-11-success.log",
-            "hash": "8e20ef80bce8a3870b12e1387a191fc85bc67919c889a42754775792e493d7a0"
-        },
-        {
-            "date": 1690267084859,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-12-success.log",
-            "hash": "8713207eacc2e9d527884485a7353eed55c15f4108485768a12d8a921fc759a3"
-        },
-        {
-            "date": 1690270537399,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-13-success.log",
-            "hash": "458f626aed8515dac51c64505dd6585effe707f42fb96f74e7002d7f258d4b9e"
-        },
-        {
-            "date": 1690273819614,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-14-success.log",
-            "hash": "8a9ed2ed6db4ed3399d60325f7c535f30cd2a9efaeaf0c324b31df2505378e22"
-        },
-        {
-            "date": 1690342857756,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-09-success.log",
-            "hash": "31d0bc6d133f5668ff64f219e0609cfef2ec13f0194478fb2f98b6df05f2f5a4"
-        },
-        {
-            "date": 1690361921497,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-14-success.log",
-            "hash": "7e460311f1760b530c8ef8b3a8e599eaa7a1aa4e0fb04f811f841e026f8dd8b5"
-        },
-        {
-            "date": 1690363873352,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-15-success.log",
-            "hash": "e1314a532019af3c1d1f6587aa8fe1e2c9d07644d8bfb9211659ba33b907f76c"
-        },
-        {
-            "date": 1690367466461,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-16-success.log",
-            "hash": "4f492ecc79be4253271f3ce3cc6a2f0822200a4ed511c8421e1c9fd908f85292"
-        },
-        {
-            "date": 1690616391781,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-29-07-13-success.log",
-            "hash": "48b13f67ce75552f000f240330a47e12fa947aee7e79b0e11262c86306b478eb"
-        },
-        {
-            "date": 1690624777202,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-29-07-15-success.log",
-            "hash": "539ea2b714c89e2edb98ea427c48d5b0ac2f2f3b67ea6d632be708d08103fde3"
-        },
-        {
-            "date": 1690710775744,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-30-07-15-success.log",
-            "hash": "8495b02bdd65c70ead3c326809b723ee92f457837002619811fb31c26eac2202"
-        },
-        {
-            "date": 1690792997666,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-31-07-14-success.log",
-            "hash": "726fcded444756b2ff50ae63af685a6cf47f555a7415b82bd86dda78538d67d1"
-        },
-        {
-            "date": 1690799621107,
-            "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-31-07-16-success.log",
-            "hash": "a227f698619556092ccfca27c2d2210e93a68d533b86e01cd6bcad10b9dfaaee"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1690095115195,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-12-success.log",
+      "hash": "7d24d0dd9fa7534b99861c707912ca8cd61290d3061b0e57f7876c94514c9e15"
+    },
+    {
+      "date": 1690113945612,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-23-07-17-success.log",
+      "hash": "52476c85898afe87b892787921fb082a7e8ae6481003fa5547987dbe33b62b8e"
+    },
+    {
+      "date": 1690171017172,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-09-success.log",
+      "hash": "6dfe0735eaaea4bab3dc4adf5950524ac487c0949a375141cb001ac83db325ad"
+    },
+    {
+      "date": 1690175104959,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-10-success.log",
+      "hash": "d04d7019ad2188919afec825542c3e951998689f97a31b9d04b828d7f0ec8dd7"
+    },
+    {
+      "date": 1690176699347,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-24-07-11-success.log",
+      "hash": "e0d2ef39f5f29ec312ff5aaf964a6dbb03fa4b14fa1f69422b00282e23dff330"
+    },
+    {
+      "date": 1690266141880,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-11-success.log",
+      "hash": "8e20ef80bce8a3870b12e1387a191fc85bc67919c889a42754775792e493d7a0"
+    },
+    {
+      "date": 1690267084859,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-12-success.log",
+      "hash": "8713207eacc2e9d527884485a7353eed55c15f4108485768a12d8a921fc759a3"
+    },
+    {
+      "date": 1690270537399,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-13-success.log",
+      "hash": "458f626aed8515dac51c64505dd6585effe707f42fb96f74e7002d7f258d4b9e"
+    },
+    {
+      "date": 1690273819614,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-25-07-14-success.log",
+      "hash": "8a9ed2ed6db4ed3399d60325f7c535f30cd2a9efaeaf0c324b31df2505378e22"
+    },
+    {
+      "date": 1690342857756,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-09-success.log",
+      "hash": "31d0bc6d133f5668ff64f219e0609cfef2ec13f0194478fb2f98b6df05f2f5a4"
+    },
+    {
+      "date": 1690361921497,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-14-success.log",
+      "hash": "7e460311f1760b530c8ef8b3a8e599eaa7a1aa4e0fb04f811f841e026f8dd8b5"
+    },
+    {
+      "date": 1690363873352,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-15-success.log",
+      "hash": "e1314a532019af3c1d1f6587aa8fe1e2c9d07644d8bfb9211659ba33b907f76c"
+    },
+    {
+      "date": 1690367466461,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-26-07-16-success.log",
+      "hash": "4f492ecc79be4253271f3ce3cc6a2f0822200a4ed511c8421e1c9fd908f85292"
+    },
+    {
+      "date": 1690616391781,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-29-07-13-success.log",
+      "hash": "48b13f67ce75552f000f240330a47e12fa947aee7e79b0e11262c86306b478eb"
+    },
+    {
+      "date": 1690624777202,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-29-07-15-success.log",
+      "hash": "539ea2b714c89e2edb98ea427c48d5b0ac2f2f3b67ea6d632be708d08103fde3"
+    },
+    {
+      "date": 1690710775744,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-30-07-15-success.log",
+      "hash": "8495b02bdd65c70ead3c326809b723ee92f457837002619811fb31c26eac2202"
+    },
+    {
+      "date": 1690792997666,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-31-07-14-success.log",
+      "hash": "726fcded444756b2ff50ae63af685a6cf47f555a7415b82bd86dda78538d67d1"
+    },
+    {
+      "date": 1690799621107,
+      "name": "C:\\Next Level Web Dev\\ASSINGMENTS\\Assingment 5\\Book Catalog Application\\Backend\\logs\\winston\\successes\\phu-2023-31-07-16-success.log",
+      "hash": "a227f698619556092ccfca27c2d2210e93a68d533b86e01cd6bcad10b9dfaaee"
+    }
+  ],
+  "hashType": "sha256"
 }
