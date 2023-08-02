@@ -17,15 +17,20 @@ const createBook = catchAsync(async (req: Request, res: Response) => {
     }
   }
 
+  console.log(req.file)
+
   const result = await BookService.createBook({
     title: req.body.title,
     author: req.body.author,
     genre: req.body.genre,
-    publicationDate: req.body.publicationDate,
-    // pdf: req.file?.filename,
-    pdf: req.body.pdf,
+    publicationYear: req.body.publicationYear,
+    image: req.file?.filename,
+    description: req.body.description,
     reviews: req.body.reviews,
   });
+
+  console.log(req.body)
+  // console.log(result);
 
   sendResponse<IBook>(res, {
     statusCode: http.OK,
@@ -66,7 +71,14 @@ const getSingelBook = catchAsync(async (req: Request, res: Response) => {
 });
 
 const updateBook = catchAsync(async (req: Request, res: Response) => {
-  const result = await BookService.updateBook(req.params.id, req.body);
+  const { id } = req.params;
+  const dataToUpdate: Partial<IBook> = req.body;
+
+  if (req.file) {
+    dataToUpdate.image = req.file.filename;
+  }
+
+  const result = await BookService.updateBook(id, dataToUpdate);
 
   sendResponse<IBook>(res, {
     statusCode: http.OK,

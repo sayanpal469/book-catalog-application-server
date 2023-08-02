@@ -11,7 +11,7 @@ router.post(
   UserController.createUser,
 );
 
-router.get('/auth/login', UserController.loginUser);
+router.post('/auth/login', UserController.loginUser);
 router.patch('/auth/forgotPass/:email', UserController.forgotPassword);
 // router.patch('/users/:id', UserController.updateUser);
 // router.delete('/users/:id', UserController.deleteUser);

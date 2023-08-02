@@ -33,19 +33,13 @@ const getAllBook = async (
     });
   }
 
+
   if (genre) {
     andConditions.push({ genre: { $in: [genre] } });
   }
 
   if (publicationYear) {
-    const startOfYear = new Date(`${publicationYear}-01-01`);
-    const endOfYear = new Date(`${publicationYear}-12-31`);
-    andConditions.push({
-      publicationDate: {
-        $gte: startOfYear,
-        $lte: endOfYear,
-      },
-    });
+    andConditions.push({ publicationYear: { $in: [publicationYear] } });
   }
 
   if (Object.keys(filtersData).length) {

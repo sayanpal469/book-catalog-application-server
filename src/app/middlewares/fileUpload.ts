@@ -3,7 +3,8 @@ import path from 'path';
 import { Request } from 'express';
 
 // Define the upload folder where the .pdf files will be stored
-const UPLOAD_FOLDER = path.join(__dirname, '../.././uplod');
+const UPLOAD_FOLDER = path.join(__dirname, '../../../upload');
+// console.log(__dirname)
 
 // Create the Multer storage engine
 const storage = multer.diskStorage({
@@ -25,11 +26,16 @@ const storage = multer.diskStorage({
 });
 
 // Define the file filter to allow only .pdf files
-const fileFilter = (_req: Request, file: Express.Multer.File, cb: multer.FileFilterCallback) => {
-  if (file.mimetype === 'application/pdf') {
+const fileFilter = (
+  _req: Request,
+  file: Express.Multer.File,
+  cb: multer.FileFilterCallback,
+) => {
+  const allowedMimeTypes = ['image/png', 'image/jpeg', 'image/jpg'];
+  if (allowedMimeTypes.includes(file.mimetype)) {
     cb(null, true);
   } else {
-    cb(new Error('Only .pdf format allowed'));
+    cb(new Error('Only .png, .jpg, and .jpeg formats are allowed'));
   }
 };
 
@@ -40,6 +46,6 @@ const upload = multer({
     fileSize: 5000000, // 5mb
   },
   fileFilter: fileFilter,
-}).single('pdf');
+}).single('image');
 
 export default upload;

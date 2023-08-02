@@ -17,12 +17,17 @@ const bookZodSchema = z.object({
     pdf: z.string({
       required_error: 'Pdf is required',
     }),
-    reviews: z.array(
-      z.object({
-        reviewer: z.string(),
-        reviewText: z.string(),
-      }),
-    ).optional(),
+    description: z.string({
+      required_error: 'Pdf is required',
+    }),
+    reviews: z
+      .array(
+        z.object({
+          reviewer: z.string(),
+          reviewText: z.string(),
+        }),
+      )
+      .optional(),
   }),
 });
 

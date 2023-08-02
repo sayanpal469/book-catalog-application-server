@@ -26,7 +26,10 @@ const loginUser = async (payload: IUser): Promise<IUser | undefined> => {
   }
 };
 
-const forgotPassword = async (email: string, password: string): Promise<IUser | undefined> => {
+const forgotPassword = async (
+  email: string,
+  password: string,
+): Promise<IUser | undefined> => {
   const user = await User.findOne({ email: email });
 
   if (!user) {
@@ -41,7 +44,7 @@ const forgotPassword = async (email: string, password: string): Promise<IUser | 
       },
     );
   }
-  return user
+  return user;
 };
 
 export const UserService = {

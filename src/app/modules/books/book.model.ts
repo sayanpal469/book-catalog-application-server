@@ -15,11 +15,15 @@ const bookSchema = new Schema<IBook, BookModel>(
       type: String,
       required: true,
     },
-    publicationDate: {
+    publicationYear: {
       type: String,
       required: true,
     },
-    pdf: {
+    image: {
+      type: String,
+      required: true,
+    },
+    description: {
       type: String,
       required: true,
     },
@@ -31,7 +35,7 @@ const bookSchema = new Schema<IBook, BookModel>(
         },
         reviewText: {
           type: String,
-          required: true,
+          // required: true,
         },
       },
     ],

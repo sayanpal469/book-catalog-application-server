@@ -28,7 +28,10 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
 });
 
 const forgotPassword = catchAsync(async (req: Request, res: Response) => {
-  const result = await UserService.forgotPassword(req.params.email, req.body.password);
+  const result = await UserService.forgotPassword(
+    req.params.email,
+    req.body.password,
+  );
 
   sendResponse<IUser>(res, {
     statusCode: http.OK,
